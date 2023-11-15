@@ -32,5 +32,5 @@ class AirlineController extends Controller
     } 
     public function destroy($id){ 
         Airline::find($id)->delete();
-    } 
+    }
 }

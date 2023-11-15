@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('country');
         });
         Airline::create(['name'=>'Orosz Boglárka','country'=>'Dánia']);
+        Airline::create(['name'=>'Szlucska Dóra','country'=>'Dánia']);
     }
 
     /**
